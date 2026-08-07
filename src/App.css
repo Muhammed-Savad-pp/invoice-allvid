@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;700&display=swap');
+
+
+@page {
+    size: A4;
+    margin: 12mm;
+}
+
+@media print {
+    .page-break {
+        break-before: page;
+        page-break-before: always;
+    }
+}
+
+@font-face {
+    font-family: 'Sequel Sans';
+    src: url('/fonts/Sequel-Sans-Regular.woff2') format('woff2'),
+        url('/fonts/Sequel-Sans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    /* Keeps text visible while loading */
+}
+
+@font-face {
+    font-family: 'Sequel Sans';
+    src: url('/fonts/Sequel-Sans-Bold.woff2') format('woff2'),
+        url('/fonts/Sequel-Sans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.allvid-title {
+    font-family: 'Cinzel';
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* Your specific body/content area */
+.sequel-content-area-terms {
+    font-family: 'Sequel Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.65;
+    /* Clean line spacing to mirror your image layout */
+    letter-spacing: -0.01em;
+    /* Neo-grotesques look great slightly tight */
+    color: #1a1a1a;
+}
+
+.sequel-content-area-programe {
+    font-family: 'Sequel Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.65;
+    /* Clean line spacing to mirror your image layout */
+    letter-spacing: -0.01em;
+    /* Neo-grotesques look great slightly tight */
+    color: #1a1a1a;
+}
