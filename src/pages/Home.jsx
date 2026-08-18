@@ -329,7 +329,8 @@ function Home({ onSubmit }) {
                                                 <option value="wedding">Wedding</option>
                                                 <option value="save the date">Save The Date</option>
                                                 <option value="nikkah">Nikkah</option>
-
+                                                <option value="day night">Day Night</option>
+                                                <option value="wedding reception">Wedding Reception</option>
                                             </select>
                                         </div>
 
