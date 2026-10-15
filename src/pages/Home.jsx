@@ -331,6 +331,12 @@ function Home({ onSubmit }) {
                                                 <option value="nikkah">Nikkah</option>
                                                 <option value="day night">Day Night</option>
                                                 <option value="wedding reception">Wedding Reception</option>
+                                                <option value="mehandi night">Mehandi Night</option>
+                                                <option value="gulabi night">Gulabi Night</option>
+                                                <option value="rangoli night">Rangoli Night</option>
+                                                <option value="foam party">Foam Party</option>
+                                                <option value="groom to bee">groom to Bee</option>
+                                                <option value="bride to bee">Bride to Bee</option>
                                             </select>
                                         </div>
 
